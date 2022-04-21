@@ -1,0 +1,106 @@
+[
+    {
+        "type": "constructor",
+        "stateMutability": "nonpayable",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "_dust",
+                "internalType": "address"
+            },
+            {
+                "internalType": "address[5]",
+                "name": "teamAddress",
+                "type": "address[5]"
+            },
+            {
+                "internalType": "uint256[5]",
+                "name": "shares",
+                "type": "uint256[5]"
+            }
+        ]
+    },
+    {
+        "name": "OwnershipTransferred",
+        "inputs": [
+            {
+                "name": "previousOwner",
+                "internalType": "address",
+                "indexed": true,
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "indexed": true,
+                "type": "address",
+                "name": "newOwner"
+            }
+        ],
+        "anonymous": false,
+        "type": "event"
+    },
+    {
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "internalType": "address",
+                "type": "address"
+            }
+        ],
+        "type": "function",
+        "stateMutability": "view",
+        "name": "owner"
+    },
+    {
+        "outputs": [],
+        "type": "function",
+        "inputs": [],
+        "name": "renounceOwnership",
+        "stateMutability": "nonpayable"
+    },
+    {
+        "stateMutability": "view",
+        "inputs": [
+            {
+                "type": "uint256",
+                "internalType": "uint256",
+                "name": ""
+            }
+        ],
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "memberAddress",
+                "type": "address"
+            },
+            {
+                "type": "uint256",
+                "internalType": "uint256",
+                "name": "share"
+            }
+        ],
+        "name": "teamMembers",
+        "type": "function"
+    },
+    {
+        "name": "transferOwnership",
+        "inputs": [
+            {
+                "name": "newOwner",
+                "internalType": "address",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "name": "retrieveSalary",
+        "inputs": [],
+        "type": "function",
+        "stateMutability": "nonpayable",
+        "outputs": []
+    }
+]
