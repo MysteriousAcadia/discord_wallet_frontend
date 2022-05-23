@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/VIPRavers",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@ethersproject/contracts": "^5.5.0",
